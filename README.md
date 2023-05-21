@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+NetMapper
 
-## Getting Started
+NetMapper est une application de balayage réseau utilisant Nmap. Il vous permet de scanner des hôtes et des ports réseau, et d'obtenir des informations détaillées sur les services en cours d'exécution.
+Fonctionnalités
 
-First, run the development server:
+    Balayage réseau avec différentes options de balayage.
+    Spécification d'options supplémentaires personnalisées.
+    Affichage des résultats du balayage.
+    Enregistrement des résultats dans une base de données MongoDB.
 
-```bash
+Installation
+
+    Clonez ce dépôt de code sur votre machine :
+
+git clone https://github.com/???????????????????/dantu_netMapper.git
+
+    Accédez au répertoire du projet :
+
+cd dantu_netMapper
+
+    Installez les dépendances du projet à l'aide de npm :
+
+npm install
+
+    Configurez les variables d'environnement :
+
+        Créez un fichier .env à la racine du projet.
+
+        Définissez les variables d'environnement suivantes dans le fichier .env :
+
+        URI_DB=<URL_de_connexion_à_votre_base_de_données_MongoDB>
+
+Utilisation
+
+    Lancez l'application :
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Accédez à l'application dans votre navigateur à l'adresse suivante : http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    Utilisez l'interface utilisateur pour spécifier les options de balayage et effectuer un balayage réseau.
