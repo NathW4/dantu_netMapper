@@ -12,7 +12,7 @@ Installation
 
 Clonez ce dépôt de code sur votre machine :
 
-    git clone https://github.com/???????????????????/dantu_netMapper.git
+    git clone https://github.com/NathW4/dantu_netMapper.git
 
 Accédez au répertoire du projet :
 
